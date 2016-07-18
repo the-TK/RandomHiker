@@ -6,26 +6,39 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		146100EF1CFB395F0031C0FD /* UpdWordAt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UpdWordAt.py; sourceTree = "<group>"; };
+		1490859D1CA810F000983EF6 /* Main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Main.py; sourceTree = "<group>"; };
+		1490859E1CAFDD0500983EF6 /* DBConnect.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = DBConnect.py; sourceTree = "<group>"; };
+		1491B1A81CE73085007FB5F4 /* Parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Parse.py; sourceTree = "<group>"; };
+		14D05BDE1CA80D0800635377 /* Scrape.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Scrape.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1462FBD91C9C3E4C0008DFDE = {
 			isa = PBXGroup;
 			children = (
+				146100EF1CFB395F0031C0FD /* UpdWordAt.py */,
+				1491B1A81CE73085007FB5F4 /* Parse.py */,
+				1490859E1CAFDD0500983EF6 /* DBConnect.py */,
+				1490859D1CA810F000983EF6 /* Main.py */,
+				14D05BDE1CA80D0800635377 /* Scrape.py */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		1462FBDE1C9C3E4C0008DFDE /* Python */ = {
+		1462FBDE1C9C3E4C0008DFDE /* RandomHiker */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 1462FBE11C9C3E4C0008DFDE /* Build configuration list for PBXLegacyTarget "Python" */;
+			buildConfigurationList = 1462FBE11C9C3E4C0008DFDE /* Build configuration list for PBXLegacyTarget "RandomHiker" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/python;
 			dependencies = (
 			);
-			name = Python;
+			name = RandomHiker;
 			passBuildSettingsInEnvironment = 1;
 			productName = Python;
 		};
@@ -35,6 +48,9 @@
 		1462FBDA1C9C3E4C0008DFDE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "伊藤健人";
 				TargetAttributes = {
@@ -43,7 +59,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1462FBDD1C9C3E4C0008DFDE /* Build configuration list for PBXProject "Python" */;
+			buildConfigurationList = 1462FBDD1C9C3E4C0008DFDE /* Build configuration list for PBXProject "RandomHiker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -54,7 +70,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1462FBDE1C9C3E4C0008DFDE /* Python */,
+				1462FBDE1C9C3E4C0008DFDE /* RandomHiker */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +158,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RandomHiker;
 			};
 			name = Debug;
 		};
@@ -152,14 +168,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RandomHiker;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1462FBDD1C9C3E4C0008DFDE /* Build configuration list for PBXProject "Python" */ = {
+		1462FBDD1C9C3E4C0008DFDE /* Build configuration list for PBXProject "RandomHiker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1462FBDF1C9C3E4C0008DFDE /* Debug */,
@@ -168,13 +184,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1462FBE11C9C3E4C0008DFDE /* Build configuration list for PBXLegacyTarget "Python" */ = {
+		1462FBE11C9C3E4C0008DFDE /* Build configuration list for PBXLegacyTarget "RandomHiker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1462FBE21C9C3E4C0008DFDE /* Debug */,
 				1462FBE31C9C3E4C0008DFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

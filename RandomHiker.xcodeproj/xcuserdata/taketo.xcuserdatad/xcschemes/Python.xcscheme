@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1462FBDE1C9C3E4C0008DFDE"
-               BuildableName = "Python"
-               BlueprintName = "Python"
-               ReferencedContainer = "container:Python.xcodeproj">
+               BuildableName = "RandomHiker"
+               BlueprintName = "RandomHiker"
+               ReferencedContainer = "container:RandomHiker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,23 +34,33 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/usr/bin/python">
+      </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1462FBDE1C9C3E4C0008DFDE"
-            BuildableName = "Python"
-            BlueprintName = "Python"
-            ReferencedContainer = "container:Python.xcodeproj">
+            BuildableName = "RandomHiker"
+            BlueprintName = "RandomHiker"
+            ReferencedContainer = "container:RandomHiker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "$(SOURCE_ROOT)//Main.py"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -64,9 +74,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1462FBDE1C9C3E4C0008DFDE"
-            BuildableName = "Python"
-            BlueprintName = "Python"
-            ReferencedContainer = "container:Python.xcodeproj">
+            BuildableName = "RandomHiker"
+            BlueprintName = "RandomHiker"
+            ReferencedContainer = "container:RandomHiker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
